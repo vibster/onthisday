@@ -1,0 +1,29 @@
+{
+  "name": "w3b cards",
+  "version": "1.0.2",
+  "manifest_version": 3,
+  "description": "Easily gather, create, organize, present, and share.",
+  "icons": {
+    "16":  "assets/images/logo/logo256.png",  // used as the favicon
+    "32":  "assets/images/logo/logo256.png",  // used by windows
+    "48":  "assets/images/logo/logo256.png",  // used in chrome://extensions
+    "128": "assets/images/logo/logo256.png"   // used by the web store
+  },
+
+  "chrome_url_overrides" : {
+    "newtab": "newTab/index.html"
+  },
+
+  "permissions": ["storage", "tabs"],
+
+  "action": {
+    "default_title": "w3bCards",              // shown in tooltip
+    "default_popup": "popUp/popup.html",
+    "default_icon": { // icon in the chrome toolbar
+      "16":  "assets/images/logo/logo256.png",
+      "32":  "assets/images/logo/logo256.png",
+      "48":  "assets/images/logo/logo256.png",
+      "128": "assets/images/logo/logo256.png"
+    }
+  }
+}

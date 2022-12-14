@@ -1,0 +1,47 @@
+/* w3bCards.css */
+:root {
+  --background: rgb(255, 0, 0);
+  --color: rgb(0,255, 0);
+  --darkGreen: rgb(40, 115, 60);
+}
+
+/* css reset */
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+html, body { height: 100%; -moz-text-size-adjust: none;
+-webkit-text-size-adjust: none; text-size-adjust: none; }
+body { line-height: 1.5; -webkit-font-smoothing: antialiased; }
+img, picture, video, canvas, svg { display: block; max-width: 100%; }
+input, button, textarea, select { font: inherit; }
+p, h1, h2, h3, h4, h5, h6 { overflow-wrap: break-word; }
+
+html {
+  background: linear-gradient(140deg, #eeeeee 0%, #9ebaf1 100%); /* blue */
+  min-height: 150px;
+  max-height: 150px;
+  min-width: 250px;
+  max-width: 250px;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: lato;
+  justify-content: center;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.subtitle {
+  color: var(--darkGreen);
+  font-size: 16px;
+}
+
+.version {
+  color: rgb(100, 100, 100);
+  font-size: 12px;
+  margin-top: 5px;
+}

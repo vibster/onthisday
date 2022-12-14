@@ -1,0 +1,57 @@
+/* w3bCards.css */
+:root {
+  --almostBlack:        rgb( 25,  25,  25);
+  --almostWhite:        rgb(250, 250, 250);
+
+  --grey250:            rgb(250, 250, 250);
+  --grey240:            rgb(240, 240, 240);
+  --grey230:            rgb(230, 230, 230);
+  --grey220:            rgb(220, 220, 220);
+  --grey210:            rgb(210, 210, 210);
+  --grey200:            rgb(200, 200, 200);
+  --grey180:            rgb(180, 180, 180);
+  --grey150:            rgb(150, 150, 150);
+  --grey140:            rgb(140, 140, 140);
+  --grey130:            rgb(130, 130, 130);
+  --grey120:            rgb(120, 120, 120);
+  --grey110:            rgb(110, 110, 110);
+  --grey100:            rgb(100, 100, 100);
+  --grey70:             rgb( 70,  70,  70);
+  --grey60:             rgb( 60,  60,  60);
+  --grey50:             rgb( 50,  50,  50);
+  --grey40:             rgb( 40,  40,  40);
+  --grey35:             rgb( 35,  35,  35);
+  --grey30:             rgb( 30,  30,  30);
+  --grey20:             rgb( 20,  20,  20);
+
+  --blue:               rgb( 75, 130, 220);
+  --medBlue:            rgb( 90, 136, 205);
+  --lightBlue:          rgb(155, 195, 255);
+  --extraLightBlue:     rgb(236, 243, 255);
+
+  --inactiveBgColor:    rgb(230, 230, 230);
+  --inactiveColor:      rgb(150, 150, 150);
+
+  --borderColor:     var(--grey200);
+  --border:          solid 1px var(--borderColor);
+  --borderRadius:    5px;
+
+  --boxShadow:            3px 3px 3px var(--grey100);
+  --boxShadowAlpha:       3px 3px 3px rgb(100, 100, 100, 0.5);
+  --boxShadowTransparent: 3px 3px 3px transparent;
+
+}
+
+/* css reset */
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+html, body { height: 100%; -moz-text-size-adjust: none;
+-webkit-text-size-adjust: none; text-size-adjust: none; }
+body { line-height: 1.5; -webkit-font-smoothing: antialiased; }
+img, picture, video, canvas, svg { display: block; max-width: 100%; }
+input, button, textarea, select { font: inherit; }
+p, h1, h2, h3, h4, h5, h6 { overflow-wrap: break-word; }
+
+body {
+  font-family: arial;
+}
